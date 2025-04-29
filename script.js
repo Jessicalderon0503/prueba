@@ -4,16 +4,15 @@
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-var firebaseConfig = {
-  apiKey: "<API_KEY>",
-  authDomain: "<PROJECT_ID>.firebaseapp.com",
-  databaseURL: "https://<DATABASE_NAME>.firebaseio.com",
-  projectId: "<PROJECT_ID>",
-  storageBucket: "<BUCKET>.appspot.com",
-  messagingSenderId: "<SENDER_ID>",
-  appId: "<APP_ID>",
-  measurementId: "<MEASUREMENT_ID>"
+const firebaseConfig = {
+  apiKey: "AIzaSyB3H_mktRmzVXNaWJZunAvMD7vhiREGiIc",
+  authDomain: "prueba-f0400.firebaseapp.com",
+  projectId: "prueba-f0400",
+  storageBucket: "prueba-f0400.firebasestorage.app",
+  messagingSenderId: "680989903860",
+  appId: "1:680989903860:web:4aed7b90c2eff41f3a87a1"
 };
+
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
